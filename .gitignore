@@ -1,0 +1,4 @@
+*.csv
+*.parquet
+data/
+ingestion/adls_batch_ingestion/data/
