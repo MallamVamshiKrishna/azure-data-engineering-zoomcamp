@@ -57,4 +57,4 @@ Performance tuning (Spark + SQL)
 📌 Future Enhancements
 CI/CD integration (Azure DevOps)
 Monitoring & alerting
-Data governance (Purview)
+Data governance
