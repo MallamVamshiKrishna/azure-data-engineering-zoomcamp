@@ -26,4 +26,4 @@ Used modular Python code for maintainability
 Built end-to-end batch ingestion pipeline
 Understood importance of data formats and schema
 Implemented cloud integration using Azure SDK
-Debugged real-world issues (file paths, naming, data types)
+Debugged real-world issues (file paths,data types,naming)
