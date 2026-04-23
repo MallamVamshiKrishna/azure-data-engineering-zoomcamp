@@ -14,7 +14,14 @@ FILE_NAME = "yellow_tripdata.parquet"
 # -------------------------------
 # FUNCTION: Get File Path
 # -------------------------------
+def get_file_path(file_name):
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    base_dir = os.path.dirname(current_dir)
 
+    file_path = os.path.join(base_dir, "data", file_name)
+
+    print(f"[INFO] File path resolved: {file_path}")
+    return file_path
 
 
 # -------------------------------
