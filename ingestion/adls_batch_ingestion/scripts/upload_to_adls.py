@@ -74,6 +74,12 @@ if __name__ == "__main__":
     main()
 
 
+# from azure.storage.blob import BlobServiceClient
+# account_name = "vamshiadls123"
+# account_key = "YOUR_ACCESS_KEY"
+# container_name = "nyc-taxi-data"
+
+
 
 
 
