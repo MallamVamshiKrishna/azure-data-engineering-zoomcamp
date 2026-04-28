@@ -1,0 +1,2 @@
+EXEC update_watermark;
+SELECT * FROM watermark_table;
