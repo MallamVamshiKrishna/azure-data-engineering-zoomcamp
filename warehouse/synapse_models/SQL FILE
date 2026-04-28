@@ -1,0 +1,15 @@
+CREATE TABLE watermark_table (
+    pipeline_name VARCHAR(100),
+    last_run_time DATETIME
+);
+INSERT INTO watermark_table
+VALUES ('pl_read_parquet','2024-01-01 00:00:00');
+SELECT * from watermark_table;
+
+CREATE PROCEDURE update_watermark
+AS
+BEGIN
+    UPDATE watermark_table
+    SET last_run_time = GETDATE()
+    WHERE pipeline_name = 'pl_read_parquet'
+END;
