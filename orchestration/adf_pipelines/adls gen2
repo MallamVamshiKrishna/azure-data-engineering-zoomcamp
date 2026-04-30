@@ -1,0 +1,45 @@
+
+output
+4/18/2026, 9:41:27 AM
+last_run_time.txt
+4/30/2026, 8:41:21 PM
+Hot (Inferred)
+Block blob
+0
+Available
+temp.txt
+4/28/2026, 4:45:04 PM
+Hot (Inferred)
+Block blob
+0
+Available
+yellow_tripdata.parquet
+4/17/2026, 5:19:03 PM
+Hot (Inferred)
+Block blob
+167.72 MiB
+Available
+yellow_tripdata.praquet
+4/16/2026, 2:23:15 AM
+Hot (Inferred)
+Block blob
+167.72 MiB
+Available
+yellow_tripdata_2019-01.parquet
+4/30/2026, 11:11:09 PM
+Hot (Inferred)
+Block blob
+136.11 MiB
+Available
+yellow_tripdata_2019-02.parquet
+4/30/2026, 1:28:43 PM
+Hot (Inferred)
+Block blob
+127.14 MiB
+Available
+yellow_tripdata_2019-03.parquet
+4/30/2026, 8:40:59 PM
+Hot (Inferred)
+Block blob
+142.24 MiB
+Available
