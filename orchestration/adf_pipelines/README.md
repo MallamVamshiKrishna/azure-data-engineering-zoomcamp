@@ -9,3 +9,8 @@ The orchestration is built to handle:
 - **Transformation**: Running [Databricks/Stored Procs/Mapping Data Flows].
 - **Monitoring**: Centralized logging and alerting for pipeline failures.
 
+## 📁 Repository Structure
+- `ARM-Templates/`: Contains generated templates for production deployment.
+- `PowerShell-Scripts/`: Utility scripts for pre- and post-deployment (e.g., stopping/starting triggers).
+- `.github/workflows/`: GitHub Action YAML files for automated CI/CD.
+- `factory/`: Core ADF resource definitions (pipelines, datasets, linked services).
